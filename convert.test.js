@@ -11,3 +11,5 @@ test('handles negative values', () => {
 test('handles non-numerical values', () => { 
    expect(()=> convert('ten')).toThrow("Invalid amount"); 
 });
+
+// convert
